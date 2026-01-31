@@ -100,21 +100,9 @@ body {
     justify-content: center;
     gap: 20px;
     margin: 30px 20px;
-    /* min-height: calc(100vh - 100px); */
+    
 
 }
-
-/* .news-section {
-    max-width: 1000px;
-    margin: 20px auto;
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
-    gap: 30px ;
-
-    min-height: calc(100vh - 100px);
-} */
 
 .news-card {
     max-width: 280px;
@@ -164,15 +152,12 @@ footer {
 
     .header {
         position: relative;
-        /* flex-direction: column;
-        gap: 20px; */
         padding: 20px 40px;
         justify-content: space-between;
         
     }
 
     .navbar {
-        /* flex-direction: column; */
         display: none;
     }
 
@@ -218,15 +203,4 @@ footer {
         color: white;
     }
 
-    /* .news-section {
-        grid-template-columns: repeat(2, 3fr);
-        max-width: 550px;
-    } */
 }
-
-/* @media (max-width: 580px) {
-    .news-section {
-        grid-template-columns: repeat(1, 1fr);
-        max-width: 400px;
-    }
-} */
